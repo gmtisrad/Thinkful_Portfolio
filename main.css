@@ -10,10 +10,42 @@ body {
 .hero {
     flex-direction: column;
     background-color: white;
-    height: 80vh;
+    height: 90vh;
     width: 75vw;
     align-self: flex-end;
+    box-shadow: 0 0 20px 5px black;
+}
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 5vw;
+}
+
+.intro h1, .intro h2 {
+    margin: 0;
+}
+
+.menu-item {
+    padding-top: 5vh;
+    padding-right: 2vh;
+    font-size: 3vw;
+}
+
+.side-nav {
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 1023px) {
@@ -26,12 +58,12 @@ body {
         justify-content: flex-end;
         align-items: center;
         min-width: 100vw;
-        font-size: 5vw;
         font-weight: 500;
     }
     
     .side-nav span {
         padding: 0 2vw;
+        font-size: 5vw;
     }
     
     .menu-name {
@@ -50,6 +82,7 @@ body {
         justify-content: center;
         text-align: center;
         font-size: 5vw;
+        box-shadow: 0 0 0 0;
     }
 
     .hero h1, .hero h2 {

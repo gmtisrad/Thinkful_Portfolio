@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.hero {
+    flex-direction: column;
+    background-color: white;
+    height: 80vh;
+    width: 75vw;
+    align-self: flex-end;
+
+}
+
+@media screen and (max-width: 1023px) {
+    .side-nav {
+        position: fixed;
+        top: 0;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        min-width: 100vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+    .side-nav span {
+        padding: 0 2vw;
+    }
+    
+    .menu-name {
+        position: fixed;
+        left: 0;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 10vh;
+        height: 90vh;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .hero h1, .hero h2 {
+        margin: 1vw;
+    }
+}

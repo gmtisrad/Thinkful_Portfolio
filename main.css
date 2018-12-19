@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: lightgrey;
+    background-color: #2B3A42;
     justify-content: center;
     min-height: 100vh;
     min-width: 100vw;
@@ -9,11 +9,10 @@ body {
 
 .hero {
     flex-direction: column;
-    background-color: white;
     height: 90vh;
     width: 75vw;
     align-self: flex-end;
-    box-shadow: 0 0 20px 5px black;
+    color: #F0F0DF
 }
 
 .intro {
@@ -22,8 +21,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
-    font-size: 5vw;
+    width: 97%;
+    font-size: 2vw;
+    background-color: #C45600;
 }
 
 .intro h1, .intro h2 {
@@ -33,7 +33,7 @@ body {
 .menu-item {
     padding-top: 5vh;
     padding-right: 2vh;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .side-nav {
@@ -46,6 +46,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+    color: #F0F0DF
 }
 
 @media screen and (max-width: 1023px) {
@@ -65,6 +66,11 @@ body {
         padding: 0 2vw;
         font-size: 5vw;
     }
+
+    .intro {
+        width: 100%;
+        font-size: 5vw;
+    }
     
     .menu-name {
         position: fixed;
@@ -81,7 +87,6 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 5vw;
         box-shadow: 0 0 0 0;
     }
 

@@ -17,6 +17,14 @@ const STORE = {
             technologies: 'Python | Socket | Threads',
             summary: 'PyChat is an asynchronous chat server and client. This project\'s purpose was to help me learn about sockets and threading.',
             image: 'images/PyChat_Preview.png'
+        },
+        {
+            name: 'Reddit Viewer',
+            live: 'https://codepen.io/Gabe_M_Timm/live/rojGyr',
+            repo: 'https://codepen.io/Gabe_M_Timm/pen/rojGyr',
+            technologies: 'HTML5 | CSS3 | JavaScript | React.js',
+            summary: 'This app allows you to enter any subreddit of your choice and it will display all of the newest posts from that subreddit.',
+            image: 'images/RedditViewer_Preview(uncompressed).png'
         }
     ]
 }
@@ -55,7 +63,6 @@ function createLandingPage() {
 
 function createProjectsPage() {
     const projectsPageHtml = (createNav() + createProjects());
-    console.log(projectsPageHtml);
     return (projectsPageHtml);
 }
 

@@ -50,9 +50,9 @@ function createLandingPage() {
             <h1>
                 Gabriel Timm
             </h1>
-            <h2>
+            <p>
                 You can call me Gabe! I'm a Full Stack developer and security enthusiast!
-            </h2>
+            </p>
             <section class="social-icons">
                 <a href='https://github.com/gmtisrad'><i class="fa fa-github" style="color:#F0F0DF;"></i></a>
                 <a href='https://codepen.io/Gabe_M_Timm/'><i class="fa fa-codepen" style="color:#F0F0DF;"></i></a>

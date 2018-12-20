@@ -49,7 +49,7 @@ a:focus {
 }
 
 .intro h1,
-.intro h2 {
+.intro p {
     margin: 10px;
 }
 
@@ -143,19 +143,20 @@ img {
 
     .side-nav a {
         padding: 0 2vw;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .intro {
         width: 100%;
-        font-size: 16px;
+        font-size: 18px;
         max-height: 95vh;
-        padding: 0 10%;
+        padding: 0 5%;
         margin: 0;
+        font-weight: 600;
     }
 
     .intro h1 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .social-icons a {

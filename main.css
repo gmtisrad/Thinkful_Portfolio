@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: .1em;
 }
 
 body {
@@ -95,9 +97,8 @@ body {
     width: 40%;
     padding: 1vw;
     margin: 1vw;
-    border: 1px solid black;
+    border: 1px solid #BDD3DE;
     background-color: #3F5866;
-    box-shadow: 0 0 20px 5px black;
 }
 
 img {

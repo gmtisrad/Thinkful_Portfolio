@@ -58,7 +58,9 @@ a:focus {
 }
 
 .about p {
+    box-sizing: border-box;
     text-align: left;
+    width: 100%
 }
 
 .menu-item {

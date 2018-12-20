@@ -15,9 +15,10 @@ body {
     box-sizing: border-box;
     flex-direction: column;
     height: 90vh;
-    width: 75vw;
+    width: 77.5vw;
     align-self: flex-end;
     color: #F0F0DF;
+    text-align: center;
 }
 
 .intro {
@@ -42,6 +43,10 @@ body {
     font-size: 20px;
 }
 
+.menu-name {
+    font-size: 24px;
+}
+
 .side-nav {
     position: fixed;
     width: 20vw;
@@ -52,20 +57,36 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    color: #F0F0DF
+    color: #F0F0DF;
 }
 
 .projects {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: flex-start;
     height: 90vh;
     flex-wrap: wrap;
-    padding: 1vw;
+    padding: .75vw;
     width: 97%;
     background-color: #C45600;
     overflow-y: auto;
     box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 24px;
+}
+
+.projects a:link {
+    color: #F0F0DF;
+}
+
+.projects a:visited {
+    color: #BDD3DE;
+}
+
+.project img {
+    margin: .75vw 0;
 }
 
 .project {
@@ -80,14 +101,15 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 90%;
+    align-self: center;
 }
 
 @media screen and (max-width: 1023px) {
     .side-nav {
         position: fixed;
         top: 0;
-        height: 10vh;
+        height: 5vh;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -98,7 +120,7 @@ img {
     
     .side-nav span {
         padding: 0 2vw;
-        font-size: 5vw;
+        font-size: 20px;
     }
 
     .intro {
@@ -112,20 +134,27 @@ img {
     }
 
     .projects {
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
     }
 
     .project {
-        width: 80%;
+        width: 90%;
         font-size: 18px;
-        margin: 1vw;
+        margin: 10px 0;
+    }
+    
+    .project h1 {
+        padding: 10px 0;
     }
 
     .hero {
         display: flex;
         flex-direction: column;
         position: fixed;
-        top: 10vh;
-        height: 90vh;
+        top: 5vh;
+        height: 95vh;
         width: 100vw;
         align-items: center;
         justify-content: center;

@@ -1,18 +1,6 @@
 'use strict'
 
 const STORE = {
-    github: {
-        link: 'https://github.com/gmtisrad',
-        icon: 'fa fa-github'
-    },
-    codepen: {
-        link: 'https://codepen.io/Gabe_M_Timm/',
-        icon: 'fa fa-codepen'
-    },
-    linkedin: {
-        link: 'https://www.linkedin.com/in/gabe-m-timm/',
-        icon: 'fa fa-linkedin'
-    },
     projects: [
          {
             name: 'The Office Quiz',
@@ -57,6 +45,7 @@ function createLandingPage() {
                 <a href='https://github.com/gmtisrad'><i class="fa fa-github" style="color:#F0F0DF;"></i></a>
                 <a href='https://codepen.io/Gabe_M_Timm/'><i class="fa fa-codepen" style="color:#F0F0DF;"></i></a>
                 <a href='https://www.linkedin.com/in/gabe-m-timm/'><i class="fa fa-linkedin" style="color:#F0F0DF;"></i></a>
+                <a href='mailto:gabe.m.timm@gmail.com'><i class="fa fa-envelope" style="color:#F0F0DF;"></i></a>
             </section>
         </section>
     </main>

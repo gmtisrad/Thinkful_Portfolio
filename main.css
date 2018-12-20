@@ -57,6 +57,10 @@ a:focus {
     font-size: 60px;
 }
 
+.about p {
+    text-align: left;
+}
+
 .menu-item {
     padding-top: 5vh;
     padding-left: 2vh;
@@ -126,6 +130,7 @@ img {
 
 .social-icons a {
     font-size: 60px;
+    margin: 0 .25vw;
 }
 
 @media screen and (max-width: 1023px) {
@@ -153,6 +158,10 @@ img {
         padding: 0 5%;
         margin: 0;
         font-weight: 600;
+    }
+
+    .about p {
+        text-align: left;
     }
 
     .intro h1 {

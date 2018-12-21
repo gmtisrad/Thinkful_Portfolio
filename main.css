@@ -123,6 +123,7 @@ a:focus {
     margin: 1vw;
     border: 1px solid #BDD3DE;
     background-color: #3F5866;
+    box-shadow: 0 0 5px 5px black;
 }
 
 img {

@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: .1em;
 }
 
@@ -69,7 +69,7 @@ a:focus {
 }
 
 .menu-name {
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .side-nav {
@@ -93,7 +93,7 @@ a:focus {
     height: 90vh;
     flex-wrap: wrap;
     padding: .75vw;
-    width: 97%;
+    width: 100%;
     overflow-y: auto;
     box-sizing: border-box;
     font-size: 20px;
@@ -204,5 +204,11 @@ img {
         justify-content: center;
         text-align: center;
         box-shadow: 0 0 0 0;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 1024px) {
+    .project {
+        width: 40%;
     }
 }

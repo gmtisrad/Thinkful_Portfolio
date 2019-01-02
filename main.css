@@ -43,7 +43,6 @@ a:focus {
     height: 100%;
     width: 97%;
     font-size: 24px;
-    background-color: #C45600;
     padding: 0 10%;
     box-sizing: border-box;
 }
@@ -70,7 +69,7 @@ a:focus {
 }
 
 .menu-name {
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .side-nav {
@@ -95,11 +94,9 @@ a:focus {
     flex-wrap: wrap;
     padding: .75vw;
     width: 97%;
-    background-color: #C45600;
     overflow-y: auto;
     box-sizing: border-box;
     font-size: 20px;
-    border-radius: 10px;
     line-height: 24px;
 }
 
@@ -118,12 +115,12 @@ a:focus {
 .project {
     display: flex;
     flex-direction: column;
-    width: 42.5%;
+    width: 25%;
     padding: 1vw;
     margin: 1vw;
     border: 1px solid #BDD3DE;
     background-color: #3F5866;
-    box-shadow: 0 0 5px 5px black;
+    box-shadow: 0 0 10px 5px black;
 }
 
 img {

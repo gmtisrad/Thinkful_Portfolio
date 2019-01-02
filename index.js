@@ -15,7 +15,7 @@ const STORE = {
             live: 'https://github.com/gmtisrad/PyChat/',
             repo: 'https://github.com/gmtisrad/PyChat/',
             technologies: 'Python | Socket | Threads',
-            summary: 'PyChat is an asynchronous chat server and client. This project\'s purpose was to help me learn about sockets and threading.',
+            summary: 'PyChat is an asynchronous chat server and client made using python, web sockets and threads.',
             image: 'images/PyChat_Preview.png'
         },
         {
@@ -23,7 +23,7 @@ const STORE = {
             live: 'https://codepen.io/Gabe_M_Timm/live/rojGyr',
             repo: 'https://codepen.io/Gabe_M_Timm/pen/rojGyr',
             technologies: 'HTML5 | CSS3 | JavaScript | React.js',
-            summary: 'This app allows you to enter any subreddit of your choice and it will display all of the newest posts from that subreddit.',
+            summary: 'This app allows you to enter any subreddit of your choice and then displays all of the newest posts from that subreddit.',
             image: 'images/RedditViewer_Preview(uncompressed).png'
         }
     ]
@@ -75,7 +75,7 @@ function createProjects() {
 
     const projectsHtml = (`
         <main role='main' class='hero'>
-            <section class='projects'>
+            <section class='intro projects'>
                 ${projects} 
             </section>
         </main>`);
@@ -93,7 +93,7 @@ function createProject(numProjects) {
 
     const projectHtml = (`
         <section class='project'>
-            <h1>${projName}</h1>
+            <h3>${projName}</h3>
             <img src='${imageLoc}' alt='${projName} Preview Image'>
             <section class='project-links'>
                 <a href='${repoLink}'>repo</a>

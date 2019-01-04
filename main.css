@@ -207,7 +207,7 @@ img {
     }
 }
 
-@media screen and (min-width: 420px) and (max-width: 1024px) {
+@media screen and (min-width: 650px) and (max-width: 1024px) {
     .project {
         width: 40%;
     }
